@@ -1,0 +1,24 @@
+menu.cpu=Processor
+
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+#MSP430F5528 Mispigy
+
+Mispigy.name=Mispino_Mispigy
+Mispigy.vid.0=0x2341
+Mispigy.pid.0=0x0c9f
+
+
+Mispigy.build.mcu=msp430f5528
+Mispigy.build.f_cpu=16000000L
+Mispigy.build.core=msp430
+Mispigy.build.variant=Mispigy
+Mispigy.build.board=Mispigy
+
+Mispigy.upload.tool=dslite
+Mispigy.upload.protocol=dslite
+Mispigy.upload.maximum_size=131072
+Mispigy.upload.maximum_data_size=8192
+
+##############################################################
