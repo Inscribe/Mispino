@@ -1,0 +1,134 @@
+{
+  "packages": 
+  [
+    {
+		"name": "mispino",
+		"maintainer": "Inscribe Technovations",
+		"websiteURL": "http://www.mispino.in",
+		"email": "support@mispino.in",
+		"help": {
+			"online": "http://forum.mispino.in/"
+		},
+		"platforms": [{
+			"name": "Mispino MSP430 Boards",
+			"architecture": "msp430",
+			"version": "0.6.0",
+			"category": "Contributed",
+			"url": "https://s3.ap-south-1.amazonaws.com/mispino/mispino_0.6.0.zip",
+			"archiveFileName": "mispino_0.6.0.zip",
+			"checksum": "SHA-256:b1b3b7b740b719d9c8c03060beefc2b4c4b7413a789d9ed86cd5662566425dd6",
+			"size": "2712977",
+			"help": {
+				"online": "http://forum.mispino.in/"
+			},
+			"boards": [{
+				"name": "Mispigy"
+			},
+			{
+				"name": "Mispod_FET"
+			}],
+			"toolsDependencies": [{
+				"packager": "mispino",
+				"name": "msp430-gcc",
+				"version": "4.6.5"
+			},
+			{
+				"packager": "mispino",
+				"name": "dslite",
+				"version": "8.2.0.1400"
+			},
+			{
+				"packager": "mispino",
+				"name": "mspdebug",
+				"version": "0.24"
+			}]
+		}],
+		"tools": [{
+			"name": "msp430-gcc",
+			"version": "4.6.5",
+			"systems": [{
+				"host": "i686-mingw32",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/windows/msp430-gcc-4.6.5-i686-mingw32.tar.bz2",
+				"archiveFileName": "msp430-gcc-4.6.5-i686-mingw32.tar.bz2",
+				"checksum": "SHA-256:91496ceffdaf63562d28ca0e27d317f4e22048267efc754450f2b3cf37e69a88",
+				"size": "30758086"
+			},
+			{
+				"host": "x86_64-apple-darwin",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/macosx/msp430-gcc-4.6.5-i386-apple-darwin11.tar.bz2",
+				"archiveFileName": "msp430-gcc-4.6.5-i386-apple-darwin11.tar.bz2",
+				"checksum": "SHA-256:9a85b83a0015d1219157e503d0515092171c1a49a9bd695fe14a4ddfbde66ffb",
+				"size": "32399439"
+			},
+			{
+				"host": "x86_64-linux-gnu",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/linux64/msp430-gcc-4.6.5-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"archiveFileName": "msp430-gcc-4.6.5-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"checksum": "SHA-256:0b5b4ee3e027aa88a8d86b1e5d6bd65f919084f3d3f8678475e4debdbbc930c9",
+				"size": "98367482"
+			}]
+		},
+		{
+			"name": "dslite",
+			"version": "8.2.0.1400",
+			"systems": [{
+                "host":"i686-mingw32",
+				"url":"https://s3.ap-south-1.amazonaws.com/mispino/dslite-8.2.0.1400-i686-mispino.zip",
+				"archiveFileName":"dslite-8.2.0.1400-i686-mispino.zip",
+				"checksum":"SHA-256:32400b4e140b290958339f388f4064597ae1bc9ab608d1dd76bd1310f97f90cd",
+				"size":"38171550"
+			},
+			{
+				"host": "x86_64-apple-darwin",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/macosx/dslite-7.4.0.1099-x86_64-apple-darwin.tar.bz2",
+				"archiveFileName": "dslite-7.4.0.1099-x86_64-apple-darwin.tar.bz2",
+				"checksum": "SHA-256:445bfbf65a709e2e031c2670b7b0300d11b25f6a58953037f27b09c341fd7fc4",
+				"size": "17016539"
+			},
+			{
+				"host": "x86_64-pc-linux-gnu",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/linux64/dslite-7.4.0.1099-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"archiveFileName": "dslite-7.4.0.1099-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"checksum": "SHA-256:187aeafd49f76d841f68d5fa9cac0dcdfce9aa401fd2f2b67bd9da5c14833f67",
+				"size": "18597835"
+			}]
+		},
+		{
+			"name": "mspdebug",
+			"version": "0.24",
+			"systems": [{
+				"host": "i686-mingw32",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/windows/mspdebug-0.24-i686-mingw32.tar.bz2",
+				"archiveFileName": "mspdebug-0.24-i686-mingw32.tar.bz2",
+				"checksum": "SHA-256:7b3dfb269b58f692d03080a641f543dfe01bcfcef43935c2bb31e2839e284e73",
+				"size": "1058435"
+			},
+			{
+				"host": "x86_64-apple-darwin",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/macosx/mspdebug-0.24-x86_64-apple-darwin.tar.bz2",
+				"archiveFileName": "mspdebug-0.24-x86_64-apple-darwin.tar.bz2",
+				"checksum": "SHA-256:5e0dc170ff259c4fc50a2bd591b1c10c648b9d8ad5770c03ed4228128e206fc0",
+				"size": "171307"
+			},
+			{
+				"host": "x86_64-pc-linux-gnu",
+				"url": "https://s3.amazonaws.com/energiaUS/tools/linux64/mspdebug-0.24-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"archiveFileName": "mspdebug-0.24-i386-x86_64-pc-linux-gnu.tar.bz2",
+				"checksum": "SHA-256:ec6131053a4ddd35b43d44591732313182e3487ffd77181df02ce23f0860a2e5",
+				"size": "147947"
+			}]
+		},
+		{
+			"name": "bslscripter",
+			"version": "3.4.0",
+			"systems": [{
+                "host":"i686-mingw32",
+				"url":"https://s3.ap-south-1.amazonaws.com/mispino/bslscripter_3.4.0.zip",
+				"archiveFileName":"bslscripter_3.4.0.zip",
+				"checksum":"SHA-256:9469d150152df285f8deef9ffe966d5dae2e17fde49776e88c550f823ee810bc",
+				"size":"463965"
+			}]
+		}]
+	}
+  ]
+}
